@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: #d1ffe4;
+}
+
+@font-face {
+    font-family: 'cause';
+    src: url(/fonts/Cause-Regular.ttf)
+}
+
+.navbar {
+    background-color: #00c951;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a, .navbar p {
+    font-family: 'cause', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+.navbar p {
+    margin: 0;
+}
+
+.navbar a:hover {
+    color: #f6f6f6;
+}
+
+
+#uicard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.dashboard, .budget, .checkbooks, .money {
+    font-family: 'cause', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.more-info {
+    font-family: 'cause', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 30px;
+    background-color: #fdd006;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.more-info:hover {
+    background-color: #f4c800;
+}
